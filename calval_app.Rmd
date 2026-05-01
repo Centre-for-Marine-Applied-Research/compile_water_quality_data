@@ -389,7 +389,7 @@ Please follow the instructions in the tabs above to generate the validation resu
 
 **Pay close attention the file format, folder structure, and metadata requirements, or else the app WILL NOT run as intended.** 
 
-If you have followed all instructions and the app still does not run, please email info\<at\>cmar.ca with the subject line "CMAR Sensor Validation App Issue". Include a copy of your zip folder and a screenshot of any error messages.
+If you have followed all instructions and the app still does not run, please email cmardev\<at\> perennia.ca with the subject line "CMAR Sensor Validation App Issue". Include a copy of your zip folder and a screenshot of any error messages.
 
 ### **Step 1: Upload Zipped Data**
 
@@ -415,7 +415,7 @@ The log, aquameasure, hobo, hobo_ph, and/or vemco folders must all be saved in t
 Notes: 
 
 - the name of the zip folder must not contain the strings "hobo", "aquameasure", "vemco", or "tidbit".
-- the timestamp for all files should in in the same time zone.
+- the timestamp for all files must be in the same time zone.
 
 
 ### **Step 2: Compile Data**
