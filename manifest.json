@@ -1291,39 +1291,6 @@
         "Built": "R 4.5.2; ; 2025-11-01 03:51:19 UTC; windows"
       }
     },
-    "docalcs": {
-      "Source": "github",
-      "Repository": null,
-      "description": {
-        "Package": "docalcs",
-        "Type": "Package",
-        "Title": "Apply Dissolved Oxygen Corrections and Conversions",
-        "Version": "0.1.0",
-        "Authors@R": "person(\"Danielle\", \"Dempsey\", , \"ddempsey@perennia.ca\", role = c(\"aut\", \"cre\"))",
-        "Description": "Text to come.",
-        "License": "GPL (>= 3)",
-        "Encoding": "UTF-8",
-        "RoxygenNote": "7.3.3",
-        "Imports": "dplyr",
-        "URL": "https://github.com/Centre-for-Marine-Applied-Research/docalcs",
-        "BugReports": "https://github.com/Centre-for-Marine-Applied-Research/docalcs/issues",
-        "RemoteType": "github",
-        "RemoteHost": "api.github.com",
-        "RemoteRepo": "docalcs",
-        "RemoteUsername": "Centre-for-Marine-Applied-Research",
-        "RemoteRef": "HEAD",
-        "RemoteSha": "cc940d46b30f6938e7cecf21d20608cea8cc7b67",
-        "GithubRepo": "docalcs",
-        "GithubUsername": "Centre-for-Marine-Applied-Research",
-        "GithubRef": "HEAD",
-        "GithubSHA1": "cc940d46b30f6938e7cecf21d20608cea8cc7b67",
-        "NeedsCompilation": "no",
-        "Packaged": "2026-04-13 17:53:42 UTC; Danielle Dempsey",
-        "Author": "Danielle Dempsey [aut, cre]",
-        "Maintainer": "Danielle Dempsey <ddempsey@perennia.ca>",
-        "Built": "R 4.5.2; ; 2026-04-13 17:53:43 UTC; windows"
-      }
-    },
     "dplyr": {
       "Source": "CRAN",
       "Repository": "https://cran.rstudio.com",
@@ -3310,10 +3277,10 @@
         "GithubRef": "HEAD",
         "GithubSHA1": "c099f9ff2ddd6e16c114e58aeaa949e9f2a291a5",
         "NeedsCompilation": "no",
-        "Packaged": "2026-04-13 17:52:33 UTC; Danielle Dempsey",
+        "Packaged": "2026-05-19 14:05:10 UTC; Danielle Dempsey",
         "Author": "Danielle Dempsey [aut, cre]",
         "Maintainer": "Danielle Dempsey <ddempsey@perennia.ca>",
-        "Built": "R 4.5.2; ; 2026-04-13 17:52:34 UTC; windows"
+        "Built": "R 4.5.2; ; 2026-05-19 14:05:12 UTC; windows"
       }
     },
     "quantreg": {
@@ -3810,9 +3777,9 @@
         "Type": "Package",
         "Package": "sensorstrings",
         "Title": "Compile, Format, and Visualize Sensor String Data",
-        "Version": "1.4.6",
+        "Version": "1.5.1",
         "Authors@R": "person(\"Danielle\", \"Dempsey\", email = \"ddempsey@perennia.ca\", role = c(\"aut\", \"cre\"))",
-        "Description": "Facilitates wrangling and analysis of Water Quality data collected as part of the Centre for Marine Applied Research's Coastal Monitoring Program. Compatible sensors: HOBO Pro V2, TidbiT MX2303, TidbiT\n    MX2203, aquaMeasure DOT, aquaMeasure SAL, aquaMeasure SST, VR2AR.",
+        "Description": "Facilitates wrangling and analysis of Water Quality data collected as part of the Centre for Marine Applied Research's Coastal Monitoring Program.",
         "License": "GPL (>= 3)",
         "Imports": "data.table, dplyr, ggplot2, ggpubr, googledrive,\ngooglesheets4, janitor, leaflet, lubridate, plotly, purrr,\nRColorBrewer, readxl, rlang, sf, shiny, stringr, tidyr, utils,\nviridis",
         "Suggests": "covr, testthat (>= 3.0.0)",
@@ -3825,16 +3792,16 @@
         "RemoteRepo": "sensorstrings",
         "RemoteUsername": "Centre-for-Marine-Applied-Research",
         "RemoteRef": "HEAD",
-        "RemoteSha": "610fcbf55c6649550de57335d590fa24525c06b1",
+        "RemoteSha": "8ebfdc68a3780fc36da96fa79cd56dd0eac7e286",
         "GithubRepo": "sensorstrings",
         "GithubUsername": "Centre-for-Marine-Applied-Research",
         "GithubRef": "HEAD",
-        "GithubSHA1": "610fcbf55c6649550de57335d590fa24525c06b1",
+        "GithubSHA1": "8ebfdc68a3780fc36da96fa79cd56dd0eac7e286",
         "NeedsCompilation": "no",
-        "Packaged": "2026-04-13 17:51:55 UTC; Danielle Dempsey",
+        "Packaged": "2026-05-19 13:52:01 UTC; Danielle Dempsey",
         "Author": "Danielle Dempsey [aut, cre]",
         "Maintainer": "Danielle Dempsey <ddempsey@perennia.ca>",
-        "Built": "R 4.5.2; ; 2026-04-13 17:51:57 UTC; windows"
+        "Built": "R 4.5.2; ; 2026-05-19 13:52:04 UTC; windows"
       }
     },
     "sf": {
@@ -4720,74 +4687,542 @@
     }
   },
   "files": {
-    "analysis/compare_hobo_aquameasure_do_val.html": {
-      "checksum": "fbb88338b6115f390551da0ca9769e4c"
+    ".posit/publish/CMAR Sensor Validation App-98IA.toml": {
+      "checksum": "91cf382fcea99a286dc96a088271a69b"
     },
-    "analysis/compare_hobo_aquameasure_do_val.qmd": {
-      "checksum": "83cf6719991736ad72a0439eed35c173"
+    ".posit/publish/deployments/deployment-G6O3.toml": {
+      "checksum": "d872ec0a2afc579b22dd0afb6e06ef83"
     },
     "calval_app.Rmd": {
-      "checksum": "bb0c1eecb4c563d9227b2b239bc5ba37"
+      "checksum": "472528f6a051f47b8ef7c36c1965349e"
     },
     "compile_app.Rmd": {
       "checksum": "1208aa51b5fa8414beb29ec76e11e51c"
     },
-    "data/ecw_val001/aquameasure/aquaMeasure-671455_2024-10-28_171201_UTC.csv": {
-      "checksum": "a876229317e6fb9ac6e41e4fafd51d4c"
+    "VAL0084/aquameasure/aquaMeasure-670287_2026-05-01_114655_UTC.csv": {
+      "checksum": "06ecdb480d18c69ba74ba905cfb55af8"
     },
-    "data/ecw_val001/aquameasure/aquaMeasure-671456_2024-10-28_171400_UTC.csv": {
-      "checksum": "c023435033afe98f5263f22ce9032d1e"
+    "VAL0084/aquameasure/aquaMeasure-670356_2026-05-01_114238_UTC.csv": {
+      "checksum": "70a67faf7e91f1ea409ef08dae84ce6b"
     },
-    "data/ecw_val001/aquameasure/aquaMeasure-671458_2024-10-28_171312_UTC.csv": {
-      "checksum": "cfadc2528ae3a176b0f1ff3ff48d1bcd"
+    "VAL0084/aquameasure/aquaMeasure-670367_2026-05-01_114607_UTC.csv": {
+      "checksum": "671872ae083391f3c78fe45a4b0e02d6"
     },
-    "data/ecw_val001/aquameasure/aquaMeasure-671462_2024-10-28_171238_UTC.csv": {
-      "checksum": "0be5f08a14cf8b3df92ec0d813208b58"
+    "VAL0084/aquameasure/aquaMeasure-671015_2026-05-01_114504_UTC.csv": {
+      "checksum": "36747dc68ad51358ee80e37b53315dc4"
     },
-    "data/ecw_val001/aquameasure/aquaMeasure-687580_2024-10-28_171037_UTC.csv": {
-      "checksum": "b7f08bde98673cac7d4419f1f4185965"
+    "VAL0084/aquameasure/aquaMeasure-671017_2026-05-01_114413_UTC.csv": {
+      "checksum": "23773b79466d44144324cbf05ecfe3dd"
     },
-    "data/ecw_val001/aquameasure/aquaMeasure-687585_2024-10-28_171118_UTC.csv": {
-      "checksum": "d439c2cc0012dcb855f72a77d47b9b5b"
+    "VAL0084/aquameasure/aquaMeasure-675015_2026-05-01_114125_UTC.csv": {
+      "checksum": "3fccda7b3eacb14d437cf9b55e6ba5df"
     },
-    "data/ecw_val001/aquameasure/aquaMeasure-687586_2024-10-28_170725_UTC.csv": {
-      "checksum": "8240bb3f9affbb758b6ccf49c4af68a1"
+    "VAL0084/aquameasure/aquaMeasure-687478_2026-05-01_113908_UTC.csv": {
+      "checksum": "1859e8e9a4a4013d747a2e89a0a4a8c6"
     },
-    "data/ecw_val001/aquameasure/aquaMeasure-687587_2024-10-28_170948_UTC.csv": {
-      "checksum": "dc15ba7e7a43480da0044633bf990c5f"
+    "VAL0084/aquameasure/aquaMeasure-687480_2026-05-01_113633_UTC.csv": {
+      "checksum": "7169df42ba0d2ecb5787c9db3d0a84a3"
     },
-    "data/ecw_val001/log/ecw_val001_log.csv": {
-      "checksum": "ec6b150db2616d7a705105d20d2d328f"
+    "VAL0084/aquameasure/aquaMeasure-688077_2026-05-01_113957_UTC.csv": {
+      "checksum": "a2b19a3ca3343c26098b12549e441f1e"
     },
-    "data/greens_point_2023-06-21.zip": {
-      "checksum": "61ae1e2cafb8799e8fe4c9698258e749"
+    "VAL0084/aquameasure/aquaMeasure-688079_2026-05-01_113526_UTC.csv": {
+      "checksum": "c56851d87e71fbb5ae79fc3de66cd3c4"
     },
-    "data/greens_point_2023-06-21/aquameasure/aquaMeasure-671305_2023-10-16_173453_UTC.csv": {
-      "checksum": "4427d7f3040f709eca8734c431b26de2"
+    "VAL0084/aquameasure/aquaMeasure-688080_2026-05-01_113715_UTC.csv": {
+      "checksum": "93b55e745208083762b33f8dd5a80f78"
     },
-    "data/greens_point_2023-06-21/hobo/21465763.csv": {
-      "checksum": "c2a6491e10a5688e8de71357529b71ef"
+    "VAL0084/hobo/20308050.csv": {
+      "checksum": "8f4ce804965d0679ef8699d3c1061724"
     },
-    "data/greens_point_2023-06-21/log/greens_point_2023-06-21_log.xlsx": {
-      "checksum": "25e7bc240b04bad60d8ed4c55c872b06"
+    "VAL0084/hobo/20308050.hobo": {
+      "checksum": "0243a9dadf638c6e0644c1c0bf24c93d"
     },
-    "data/greens_point_2023-06-21/vemco/VUE_Export.csv": {
-      "checksum": "fe355d8d0dc9e67dd9175a60b0e44529"
+    "VAL0084/hobo/20495203.csv": {
+      "checksum": "964330d45be0486f2012f698e556259d"
     },
-    "data/letang_head_2023-06-21/aquameasure/aquaMeasure-671304_2023-10-16_173638_UTC.csv": {
-      "checksum": "f201f3cf1677c92c757c48d9fa0293b4"
+    "VAL0084/hobo/20495203.hobo": {
+      "checksum": "b9f25c60332fe05dc06bbb08c4b88f90"
     },
-    "data/letang_head_2023-06-21/hobo/21465772.csv": {
-      "checksum": "a11c1c0aacc6eca95af8f7172942712f"
+    "VAL0084/hobo/20495249.csv": {
+      "checksum": "08d810023bc9fe5843e9793656d23809"
     },
-    "data/letang_head_2023-06-21/log/letang_head_2023-06-21_log.xlsx": {
-      "checksum": "020462a96baae5ebdc0ce70853509c1b"
+    "VAL0084/hobo/20495249.hobo": {
+      "checksum": "0dd34bfbad4411d1ca324d93ab7247c8"
     },
-    "data/letang_head_2023-06-21/vemco/VUE_Export.csv": {
-      "checksum": "5e5abba11a02ea3a9f73259571a5507d"
+    "VAL0084/hobo/20495250.csv": {
+      "checksum": "8ea234be598fcff4ab5ae0e487b084aa"
     },
-    "data/VAL0068.zip": {
-      "checksum": "2a92577a12d179e02e26c26bedfeb77b"
+    "VAL0084/hobo/20495250.hobo": {
+      "checksum": "31d074799bf7472b488214b68211c452"
+    },
+    "VAL0084/hobo/20495251.csv": {
+      "checksum": "1c86039262b59ee20576baed97ca9188"
+    },
+    "VAL0084/hobo/20495251.hobo": {
+      "checksum": "8da574d772934ea5ed6cc848e38d937b"
+    },
+    "VAL0084/hobo/21043067.csv": {
+      "checksum": "152457b7e2e2aa54bba230f017f735cd"
+    },
+    "VAL0084/hobo/21043067.hobo": {
+      "checksum": "2218057bcca256b04721944e9da4d273"
+    },
+    "VAL0084/hobo/21043074.csv": {
+      "checksum": "41e5393e2dbd8d25a812bea94457d650"
+    },
+    "VAL0084/hobo/21043074.hobo": {
+      "checksum": "9bc2d18e5a0990b657c0724b414e028d"
+    },
+    "VAL0084/hobo/21043083.csv": {
+      "checksum": "6a1658ab85336a6cdb7a8f32febeca8f"
+    },
+    "VAL0084/hobo/21043083.hobo": {
+      "checksum": "86238e8e45b0da22f9f6690719b760a4"
+    },
+    "VAL0084/hobo/21082882.csv": {
+      "checksum": "dbefbb31fa8b0f2c3019345379266157"
+    },
+    "VAL0084/hobo/21082882.hobo": {
+      "checksum": "215e22893e11efa87793158320189878"
+    },
+    "VAL0084/hobo/21082884.csv": {
+      "checksum": "2b8517e14b879222fc58ee90e21b34c6"
+    },
+    "VAL0084/hobo/21082884.hobo": {
+      "checksum": "65d4c5a75ec24e8cca4779853b8c6743"
+    },
+    "VAL0084/hobo/21082892.csv": {
+      "checksum": "1896045b0b15137413815c38aedf2eb4"
+    },
+    "VAL0084/hobo/21082892.hobo": {
+      "checksum": "90cb6e54df49df2615e7c130a50bcead"
+    },
+    "VAL0084/hobo/21414881.csv": {
+      "checksum": "38b5bb6e6969727f2031cb94a17aca39"
+    },
+    "VAL0084/hobo/21414881.hobo": {
+      "checksum": "940b09e9b29dcb115d9c15cd61106181"
+    },
+    "VAL0084/hobo/21414898.csv": {
+      "checksum": "1d0e0366bbed0ffa11379e0a39979216"
+    },
+    "VAL0084/hobo/21414898.hobo": {
+      "checksum": "505bad7b3f3ae229a8da5ee067c51b42"
+    },
+    "VAL0084/hobo/21452279.csv": {
+      "checksum": "99fe93af88800787ba21fbd052ea72ef"
+    },
+    "VAL0084/hobo/21452279.hobo": {
+      "checksum": "9a81df5e9211e82b56169e0ec64f3b45"
+    },
+    "VAL0084/hobo/21473802.csv": {
+      "checksum": "9f72134cda11e28267bd055d495687af"
+    },
+    "VAL0084/hobo/21473802.hobo": {
+      "checksum": "9b652aedd0caf5441e2b1713664cbfbc"
+    },
+    "VAL0084/hobo/21650151.csv": {
+      "checksum": "8bf24aa55b95a1598cb868f30258d0cf"
+    },
+    "VAL0084/hobo/21650151.hobo": {
+      "checksum": "038484f30ffd7d0dcb27c0da393b80a8"
+    },
+    "VAL0084/hobo/21927294.csv": {
+      "checksum": "b5ca8fa1abedc8b1d1ba42af22562d83"
+    },
+    "VAL0084/hobo/21927294.hobo": {
+      "checksum": "b557739a342df35fd9b59da78b67d9b3"
+    },
+    "VAL0084/hobo/22030596.csv": {
+      "checksum": "2fba8a552bcdf0a684370b96a92bcc14"
+    },
+    "VAL0084/hobo/22030596.hobo": {
+      "checksum": "32bb7644c5cffd12c5c898fea20a30f3"
+    },
+    "VAL0084/hobo/22048569.csv": {
+      "checksum": "3ed887617da82abe029ada62d579ebdc"
+    },
+    "VAL0084/hobo/22048569.hobo": {
+      "checksum": "e8f3b3cf24a04d2286f4a6b5b3b5865c"
+    },
+    "VAL0084/hobo/22048575.csv": {
+      "checksum": "0a5bf6ddf9ed6ec8d20028c90dacf171"
+    },
+    "VAL0084/hobo/22048575.hobo": {
+      "checksum": "bedbc8b6538df23ec02ebdea0acd2a7a"
+    },
+    "VAL0084/hobo/22048576.csv": {
+      "checksum": "1cbfa13778b21411162ef2011adacefe"
+    },
+    "VAL0084/hobo/22048576.hobo": {
+      "checksum": "f897730de506729ff22b3b6a362d173d"
+    },
+    "VAL0084/hobo/22048589.csv": {
+      "checksum": "f1e3caf62159bcca60822acb9dee281e"
+    },
+    "VAL0084/hobo/22048589.hobo": {
+      "checksum": "d8fc5d25072e9807ad6a2e94f664a1d5"
+    },
+    "VAL0084/hobo/22055894.csv": {
+      "checksum": "afc99cfb2885cc450a8a5a406a486567"
+    },
+    "VAL0084/hobo/22055894.hobo": {
+      "checksum": "beecc4ea919865c3407b11fedc06cf43"
+    },
+    "VAL0084/hobo/22200676.csv": {
+      "checksum": "6a9c97ab664d1e52a2e2f4c4b4aecb1a"
+    },
+    "VAL0084/hobo/22200676.hobo": {
+      "checksum": "c39f421207aa953e3b93821b67d42ab4"
+    },
+    "VAL0084/hobo/22249006.csv": {
+      "checksum": "04b4df8df8ecb5364c5f0c931f9bfa97"
+    },
+    "VAL0084/hobo/22249006.hobo": {
+      "checksum": "a2403776722536a15c407b3b234aead5"
+    },
+    "VAL0084/hobo/22249008.csv": {
+      "checksum": "6c228c0359cc797c0dccb092e612e055"
+    },
+    "VAL0084/hobo/22249008.hobo": {
+      "checksum": "37243170d41c0a14a13140ceb9abacd2"
+    },
+    "VAL0084/hobo/22249010.csv": {
+      "checksum": "5caf4464bb5096870ca26bb4a529ec91"
+    },
+    "VAL0084/hobo/22249010.hobo": {
+      "checksum": "7ab02d6c6f20eac7f3517e1de15778ce"
+    },
+    "VAL0084/hobo/22249016.csv": {
+      "checksum": "e2c5febffc6714772b98befe02651bc4"
+    },
+    "VAL0084/hobo/22249016.hobo": {
+      "checksum": "5795aa9a2b75262295f1df3ed6da598d"
+    },
+    "VAL0084/hobo/22249017.csv": {
+      "checksum": "57c891c75c814311f2f9255443318417"
+    },
+    "VAL0084/hobo/22249017.hobo": {
+      "checksum": "532fa3b20c784e7926a1e3594c7ecdd8"
+    },
+    "VAL0084/hobo/22249019.csv": {
+      "checksum": "f2964c19ec00bc2d96304f86a772c7ba"
+    },
+    "VAL0084/hobo/22249019.hobo": {
+      "checksum": "8c93c87de22637f9537c2bc8592c1a76"
+    },
+    "VAL0084/hobo/22249020.csv": {
+      "checksum": "66ca99eef395de4a8e18f436760897b0"
+    },
+    "VAL0084/hobo/22249020.hobo": {
+      "checksum": "53dd9f028d430475147844d255e3dc22"
+    },
+    "VAL0084/hobo/22249022.csv": {
+      "checksum": "8e9262bd2512e24228004dbdd7d2f35a"
+    },
+    "VAL0084/hobo/22249022.hobo": {
+      "checksum": "8697480e2360cc0aa5201b14fb81d452"
+    },
+    "VAL0084/hobo/22278828.csv": {
+      "checksum": "c969b26b13bce2fca878699564fc30cc"
+    },
+    "VAL0084/hobo/22278828.hobo": {
+      "checksum": "2a0b4c98b51d2f1bff7482c159b78f5d"
+    },
+    "VAL0084/hobo/22278832.csv": {
+      "checksum": "7cd1148c4db45dcecc51b8801de799aa"
+    },
+    "VAL0084/hobo/22278832.hobo": {
+      "checksum": "d63005244a4f45cf353dbc1cd6df1344"
+    },
+    "VAL0084/hobo/22278834.csv": {
+      "checksum": "2b5c0160e2d99fcd46ab47539993ebfc"
+    },
+    "VAL0084/hobo/22278834.hobo": {
+      "checksum": "9ee3b452b68694b4fa15c07326e21247"
+    },
+    "VAL0084/hobo/22278836.csv": {
+      "checksum": "d0185bff4a351893801c334bc0a87e60"
+    },
+    "VAL0084/hobo/22278836.hobo": {
+      "checksum": "2e3a1b7224102a4eb55efcbc836318ef"
+    },
+    "VAL0084/hobo/22278837.csv": {
+      "checksum": "a897ecf793a38b3fbf9f99594678f9a5"
+    },
+    "VAL0084/hobo/22278837.hobo": {
+      "checksum": "ec381c4b968acac163738e52b431932f"
+    },
+    "VAL0084/hobo/22278844.csv": {
+      "checksum": "279830bae2852090b30f6607e45cd2db"
+    },
+    "VAL0084/hobo/22278844.hobo": {
+      "checksum": "942429e31271a4b501cab25ca70b8d22"
+    },
+    "VAL0084/hobo/22278845.csv": {
+      "checksum": "d9757fb48ae540d3393f451d01c0b406"
+    },
+    "VAL0084/hobo/22278845.hobo": {
+      "checksum": "611aa690dff92337d616ff96a4568528"
+    },
+    "VAL0084/hobo/22278846.csv": {
+      "checksum": "ff85f1bc7cdd8aa2a637c76c98e22cfd"
+    },
+    "VAL0084/hobo/22278846.hobo": {
+      "checksum": "aae60d5e117861a62ad060a0b60b7f99"
+    },
+    "VAL0084/hobo/22278853.csv": {
+      "checksum": "bfcc80db1780ee9a21eaf426abd07286"
+    },
+    "VAL0084/hobo/22278853.hobo": {
+      "checksum": "df5692198898f093691677fa23ce4fca"
+    },
+    "VAL0084/hobo/22278854.csv": {
+      "checksum": "83d173d7e17b78400561b2a49096dc68"
+    },
+    "VAL0084/hobo/22278854.hobo": {
+      "checksum": "56d0ea6cc6dab04c2a874db0327ce184"
+    },
+    "VAL0084/hobo/22278862.csv": {
+      "checksum": "fe4ec25a63664cc06432a1988f5e67d2"
+    },
+    "VAL0084/hobo/22278862.hobo": {
+      "checksum": "a7038754dbec4fcf375592f557705546"
+    },
+    "VAL0084/hobo/22278870.csv": {
+      "checksum": "993728e92ed652d25cf8387cb1aa3672"
+    },
+    "VAL0084/hobo/22278870.hobo": {
+      "checksum": "67c364bd98a7fdcbc42093f5edecad14"
+    },
+    "VAL0084/hobo/22278871.csv": {
+      "checksum": "58d7576c08696349c29890aa94703a0a"
+    },
+    "VAL0084/hobo/22278871.hobo": {
+      "checksum": "e7d488f7e78b966efc0d3e2336318f7f"
+    },
+    "VAL0084/hobo/22285928.csv": {
+      "checksum": "62a2ae7b0f5ee96f10770bd0f03b220f"
+    },
+    "VAL0084/hobo/22285928.hobo": {
+      "checksum": "a4dd17b2f214c848ba01a9a7164c4bb4"
+    },
+    "VAL0084/hobo/22311476.csv": {
+      "checksum": "46bbfec7699639111938e89f79f39917"
+    },
+    "VAL0084/hobo/22311476.hobo": {
+      "checksum": "f2586c3389dac1cde7cd35f60262b6a0"
+    },
+    "VAL0084/log/val_0084_log.csv": {
+      "checksum": "4d8af53cf3bf86842529e45982db3b79"
+    },
+    "VAL0086/aquameasure/aquaMeasure-671019_2026-05-14_171956_UTC.csv": {
+      "checksum": "bc488fdfca8973d12d72d2235f169302"
+    },
+    "VAL0086/aquameasure/aquaMeasure-671311_2026-05-14_171832_UTC.csv": {
+      "checksum": "c41ae56da757f58f1c3f4087960c1971"
+    },
+    "VAL0086/aquameasure/aquaMeasure-671332_2026-05-14_172247_UTC.csv": {
+      "checksum": "f628d9d6654a1072853e8949c468659b"
+    },
+    "VAL0086/aquameasure/aquaMeasure-680158_2026-05-14_172420_UTC.csv": {
+      "checksum": "d844eac6842ccfb8055916e54ee7febf"
+    },
+    "VAL0086/aquameasure/aquaMeasure-686256_2026-05-14_172915_UTC.csv": {
+      "checksum": "45f0e452a8e75d438666edb720e4d3c5"
+    },
+    "VAL0086/aquameasure/aquaMeasure-687477_2026-05-14_172754_UTC.csv": {
+      "checksum": "47cd4d54fe80406c657e1cce4d55d5b5"
+    },
+    "VAL0086/hobo/20495220.csv": {
+      "checksum": "86e2b2889feddce5baa6380302706a6f"
+    },
+    "VAL0086/hobo/20495220.hobo": {
+      "checksum": "22f7953922e207ad6e412f4a37912f7e"
+    },
+    "VAL0086/hobo/20495242.csv": {
+      "checksum": "192145beb19c7c3db50c0775f6ff9409"
+    },
+    "VAL0086/hobo/20495242.hobo": {
+      "checksum": "b203a0a147c3a809509e70f4398fc817"
+    },
+    "VAL0086/hobo/20687286.csv": {
+      "checksum": "9bbed0152218ac3f9fc57baddd3a3697"
+    },
+    "VAL0086/hobo/20687286.hobo": {
+      "checksum": "1390f6caecbf7a68817cbb2d398f2626"
+    },
+    "VAL0086/hobo/20820327.csv": {
+      "checksum": "75523464b204ee34586928b7b6ebbc93"
+    },
+    "VAL0086/hobo/20820327.hobo": {
+      "checksum": "660182f48c5b56f5f584d93967eeda92"
+    },
+    "VAL0086/hobo/20900987.csv": {
+      "checksum": "0192725e3e556ac3f1a4d19d63df9059"
+    },
+    "VAL0086/hobo/20900987.hobo": {
+      "checksum": "d9af87215749b9740b923fc1d244d794"
+    },
+    "VAL0086/hobo/21043068.csv": {
+      "checksum": "e89c409593418a783085933e7d701ff1"
+    },
+    "VAL0086/hobo/21043068.hobo": {
+      "checksum": "d1354ab6326a5ef96e3e938e1cea208a"
+    },
+    "VAL0086/hobo/21082885.csv": {
+      "checksum": "f75317af46c380a36d685d201156295e"
+    },
+    "VAL0086/hobo/21082885.hobo": {
+      "checksum": "5098531ad06408be19e9e2222f4c939c"
+    },
+    "VAL0086/hobo/21082891.csv": {
+      "checksum": "7dc3751ee66a967ce399b618ff356b63"
+    },
+    "VAL0086/hobo/21082891.hobo": {
+      "checksum": "1a17741d0c448a949791e0ad5ef95893"
+    },
+    "VAL0086/hobo/21152408.csv": {
+      "checksum": "61bf0a2e4d6c1ec271c39d3816bc4d3a"
+    },
+    "VAL0086/hobo/21152408.hobo": {
+      "checksum": "945460ad29a68aac62fada35574be8a9"
+    },
+    "VAL0086/hobo/21434539.csv": {
+      "checksum": "f2a17f2b69d2d5857dd50fb8946e3ff6"
+    },
+    "VAL0086/hobo/21434539.hobo": {
+      "checksum": "51b5fb9645b956c6b02338725ce98a4a"
+    },
+    "VAL0086/hobo/21465745.csv": {
+      "checksum": "1d8e09a57e7fa212cabc3c1ad6c7e840"
+    },
+    "VAL0086/hobo/21465745.hobo": {
+      "checksum": "019aef152693b94ee909cbbb3a20c3c7"
+    },
+    "VAL0086/hobo/21465814.csv": {
+      "checksum": "a6e2ebbb7ed5dd3485525a1811124c14"
+    },
+    "VAL0086/hobo/21465814.hobo": {
+      "checksum": "5a7784c009d67d159543ebcc6d294423"
+    },
+    "VAL0086/hobo/21981719.csv": {
+      "checksum": "5d4daa9c14dc4715f4f8a42d77f27b3d"
+    },
+    "VAL0086/hobo/21981719.hobo": {
+      "checksum": "b5cd76fbdea37ae87e8f7382b19d4e50"
+    },
+    "VAL0086/hobo/21981720.csv": {
+      "checksum": "7ce4f8ec19dd770616f52315f7c0bb4c"
+    },
+    "VAL0086/hobo/21981720.hobo": {
+      "checksum": "7dcfa061445700e1c1c234fae887c4fc"
+    },
+    "VAL0086/hobo/22048605.csv": {
+      "checksum": "430ca7816a139732209d76db351809d8"
+    },
+    "VAL0086/hobo/22048605.hobo": {
+      "checksum": "6faab2f6608ea8433881a20d74933349"
+    },
+    "VAL0086/hobo/22048802.csv": {
+      "checksum": "16ff5a319211f2f5c1b442ca32d3674f"
+    },
+    "VAL0086/hobo/22048802.hobo": {
+      "checksum": "78bcfa5152d85e6ba6ad156c4266c4d3"
+    },
+    "VAL0086/hobo/22048803.csv": {
+      "checksum": "0299c16a0a539b4b8904e3dfda93a0d2"
+    },
+    "VAL0086/hobo/22048803.hobo": {
+      "checksum": "b6cbc1398bf7f4f2774b0bcee4f153a7"
+    },
+    "VAL0086/hobo/22055890.csv": {
+      "checksum": "04bbaa8f2f470929a74c872df134d191"
+    },
+    "VAL0086/hobo/22055890.hobo": {
+      "checksum": "cd540e5e8e3a4e23b07a46956073bc30"
+    },
+    "VAL0086/hobo/22055898.csv": {
+      "checksum": "8a0d66ba4d1219ea3a0696e83ccd12ea"
+    },
+    "VAL0086/hobo/22055898.hobo": {
+      "checksum": "2118351b091c6005d69c25af05089a4c"
+    },
+    "VAL0086/hobo/22055911.csv": {
+      "checksum": "7874d3dcb32301afadba068f3b843727"
+    },
+    "VAL0086/hobo/22055911.hobo": {
+      "checksum": "96f9b051a901f63e3d22a047b5067067"
+    },
+    "VAL0086/hobo/22224438.csv": {
+      "checksum": "5d1edc36b8cc5bde83d9ee8326071c53"
+    },
+    "VAL0086/hobo/22224438.hobo": {
+      "checksum": "16874c1faee51267e39d11fcba0c6964"
+    },
+    "VAL0086/hobo/22224440.csv": {
+      "checksum": "13924665d4736df15cea657d8a3f6286"
+    },
+    "VAL0086/hobo/22224440.hobo": {
+      "checksum": "87608f7169768178fd74ee1bedd2fb8f"
+    },
+    "VAL0086/hobo/22249007.csv": {
+      "checksum": "1322ebf4290ea86ed0f77cdbeb9eeefd"
+    },
+    "VAL0086/hobo/22249007.hobo": {
+      "checksum": "23b211ff7975f2c5d91e2526ded1b93a"
+    },
+    "VAL0086/hobo/22278825.csv": {
+      "checksum": "8a8caf8802efe6e472e2bd9f3a39be56"
+    },
+    "VAL0086/hobo/22278825.hobo": {
+      "checksum": "57a4ab53f78a00041d3992baa9c66385"
+    },
+    "VAL0086/hobo/22278830.csv": {
+      "checksum": "4a7a74b6479ef519c3f2eb66aa554904"
+    },
+    "VAL0086/hobo/22278830.hobo": {
+      "checksum": "401781c96d1fa5e37d16d0a3dca1cd80"
+    },
+    "VAL0086/hobo/22278831.csv": {
+      "checksum": "f14a8ccdbeeeb57578ffae6fe911d73d"
+    },
+    "VAL0086/hobo/22278831.hobo": {
+      "checksum": "66ccc49a877a7c25e066decefa37d0ec"
+    },
+    "VAL0086/hobo/22278833.csv": {
+      "checksum": "ea8c7ef453705a3a5069d9d9c555758e"
+    },
+    "VAL0086/hobo/22278833.hobo": {
+      "checksum": "2e7d177c45147d697f873b2b690d2f34"
+    },
+    "VAL0086/hobo/22278838.csv": {
+      "checksum": "07bad91a7d40ef4399bf2258db93f5b1"
+    },
+    "VAL0086/hobo/22278838.hobo": {
+      "checksum": "bcadabb4f51edbd36b01c6cc9a4495c0"
+    },
+    "VAL0086/hobo/22278868.csv": {
+      "checksum": "37d2a210f39458705d24d61737fc0e56"
+    },
+    "VAL0086/hobo/22278868.hobo": {
+      "checksum": "96301b39c3686f6aeb12ee1f2bf7f717"
+    },
+    "VAL0086/hobo/22278869.csv": {
+      "checksum": "46bfc55ef3815c704c901fc72e52c44f"
+    },
+    "VAL0086/hobo/22278869.hobo": {
+      "checksum": "c20b11559f35cc294a1c3f789c475a92"
+    },
+    "VAL0086/hobo/22311477.csv": {
+      "checksum": "b04fcaa9d2d9b97e355a9e87c66f2af3"
+    },
+    "VAL0086/hobo/22311477.hobo": {
+      "checksum": "ecbcd9637a5bd2c700e53cd4b3ddae82"
+    },
+    "VAL0086/log/val_0086_log.csv": {
+      "checksum": "bf5cff10c35ef87c3f6c1d408852811f"
     }
   },
   "users": null
