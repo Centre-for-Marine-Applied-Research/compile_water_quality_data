@@ -773,10 +773,10 @@
       "description": {
         "Package": "calval",
         "Title": "Validate Calibrated Sensor Performance",
-        "Version": "0.1.0",
+        "Version": "0.1.1",
         "Authors@R": "\n    c(person(given = \"Danielle\", \n    family = \"Dempsey\", \n    email = \"ddempsey@perennia.ca\",\n    role = c(\"aut\", \"cre\")),\n    person(given = \"Nicole\", \n    family = \"Torrie\", \n    email = \"ntorrie@perennia.ca\", \n    role = \"aut\"))",
         "Maintainer": "Danielle Dempsey <ddempsey@perennia.ca>",
-        "Description": "Facilitates calibration validation of Water Quality sensors deployed for CMAR's Coastal Monitoring Program. (Compatible sensors: Hobo Pro V2, Hobo DO, aquaMeasure DOT, aquaMeasure SAL). Researchers can verify whether sensors are operating within an acceptable range prior to and after sensor deployment.",
+        "Description": "Facilitates calibration validation of Water Quality sensors deployed for CMAR's Coastal Monitoring Program. (Compatible sensors: Hobo Pro V2, Hobo DO, Hobo pH, aquaMeasure DOT, aquaMeasure SAL). Researchers can verify whether sensors are operating within an acceptable range prior to and after sensor deployment.",
         "License": "GPL (>= 3)",
         "Encoding": "UTF-8",
         "RoxygenNote": "7.3.3",
@@ -791,16 +791,16 @@
         "RemoteRepo": "calval",
         "RemoteUsername": "Centre-for-Marine-Applied-Research",
         "RemoteRef": "HEAD",
-        "RemoteSha": "37561996182a51002cd3dfe87514916723ca552f",
+        "RemoteSha": "55e51a0bbc3ca89ca071136dbe6b62cab6e0326c",
         "GithubRepo": "calval",
         "GithubUsername": "Centre-for-Marine-Applied-Research",
         "GithubRef": "HEAD",
-        "GithubSHA1": "37561996182a51002cd3dfe87514916723ca552f",
+        "GithubSHA1": "55e51a0bbc3ca89ca071136dbe6b62cab6e0326c",
         "NeedsCompilation": "no",
-        "Packaged": "2026-04-13 17:45:43 UTC; Danielle Dempsey",
+        "Packaged": "2026-05-20 11:42:36 UTC; Danielle Dempsey",
         "Author": "Danielle Dempsey [aut, cre],\n  Nicole Torrie [aut]",
         "Depends": "R (>= 3.5.0)",
-        "Built": "R 4.5.2; ; 2026-04-13 17:45:43 UTC; windows"
+        "Built": "R 4.5.2; ; 2026-05-20 11:42:37 UTC; windows"
       }
     },
     "car": {
@@ -4699,6 +4699,9 @@
     "compile_app.Rmd": {
       "checksum": "1208aa51b5fa8414beb29ec76e11e51c"
     },
+    "migrate_calval_tracking.R": {
+      "checksum": "8c726a42a15e75e25a43b32fa4a81d47"
+    },
     "VAL0084/aquameasure/aquaMeasure-670287_2026-05-01_114655_UTC.csv": {
       "checksum": "06ecdb480d18c69ba74ba905cfb55af8"
     },
@@ -5223,6 +5226,39 @@
     },
     "VAL0086/log/val_0086_log.csv": {
       "checksum": "bf5cff10c35ef87c3f6c1d408852811f"
+    },
+    "val0087.zip": {
+      "checksum": "decd0f9bf6de2b396f148f7e9363c66d"
+    },
+    "val0087/aquameasure/aquaMeasure-670287_2026-05-07_163347_UTC.csv": {
+      "checksum": "0318c4aa7433e74384d11a2bf4215444"
+    },
+    "val0087/aquameasure/aquaMeasure-670356_2026-05-07_163737_UTC.csv": {
+      "checksum": "3ca7b488e7d6602b4952c15748d94082"
+    },
+    "val0087/aquameasure/aquaMeasure-688079_2026-05-07_164111_UTC.csv": {
+      "checksum": "3c8e868d5e44f1325732e636a9e88b19"
+    },
+    "val0087/aquameasure/aquaMeasure-688080_2026-05-07_164153_UTC.csv": {
+      "checksum": "f6e8e09dfde72d0e7df724cd795d2c05"
+    },
+    "val0087/hobo/21155068.csv": {
+      "checksum": "8a779d888b50a2ddd1ff733d2e62e734"
+    },
+    "val0087/hobo/21473802.csv": {
+      "checksum": "fade56dd46db0df98d75231e2c7ab77d"
+    },
+    "val0087/hobo/21650151.csv": {
+      "checksum": "afcbad01ff806bf4e1241cbaed702832"
+    },
+    "val0087/hobo/21927294.csv": {
+      "checksum": "1fc671647a3e549bfc67da9a9c4c87e4"
+    },
+    "val0087/log/val_0087_log.csv": {
+      "checksum": "698544e5e595c5a02965bb5c49fe6339"
+    },
+    "val0087/log/VAL0087_log.csv": {
+      "checksum": "0312deda22f4da9923b05d57ca9a1deb"
     }
   },
   "users": null
